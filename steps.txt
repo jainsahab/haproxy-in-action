@@ -1,0 +1,7 @@
+1. ) Open two terminal windows and navigate to the project directory in both windows.
+	 node hello-world-server.js 8000
+	 node hello-world-server.js 8001
+
+2.) sh run.sh
+3.) run "ab -n 50 http://localhost/" to make 50 request and see the hello-world-server logs, requests should be evenly distributed.
+4.) Open "http://localhost:8404/stats" in your browser to see stats.
